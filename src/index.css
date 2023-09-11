@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .authenticationDiv {
+        @apply flex flex-col items-center justify-center sm:px-6 sm:py-8 mx-auto h-screen lg:py-0 
+    }
+    .authenticationInnerDiv {
+        @apply w-full h-full sm:h-auto sm:rounded-lg border md:mt-0 sm:max-w-md xl:p-0 bg-gray-800 border-gray-700 shadow-2xl
+    }
+}
